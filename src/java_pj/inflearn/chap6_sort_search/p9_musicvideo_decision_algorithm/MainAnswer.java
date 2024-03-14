@@ -3,7 +3,7 @@ package java_pj.inflearn.chap6_sort_search.p9_musicvideo_decision_algorithm;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class MainAnswer {
     public int solution(int M, int[] input) {
         int answer = 0;
         int left = Arrays.stream(input).max().getAsInt();
@@ -40,7 +40,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main T = new Main();
+        MainAnswer T = new MainAnswer();
         Scanner sc = new Scanner(System.in);
 
         int N = sc.nextInt();
